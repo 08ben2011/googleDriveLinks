@@ -1,1 +1,8 @@
-# googleDriveLinks
+With this script you can retrieve the links for all files in a given folder from GoogleDrive.
+
+Steps for using this file:
+
+1. Get the json file from your google account api https://www.googleapis.com/auth/drive
+2. Install requirements
+3. Edit the '\path\to\your\credentialFile.json' and the ' --> YOUR FOLDER ID HERE <-- ' fields with your own json file and google drive folder
+4. Run the googleDriveLinks.py and wait for the exported file
