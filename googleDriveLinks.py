@@ -8,14 +8,14 @@ import pandas as pd
 # Set up credentials and Drive API client
 creds = None
 creds = service_account.Credentials.from_service_account_file(
-    '\path\to\your\credentialFile.json',
+    '\path\to\your\credentialFile.json',                             # <-- edit here
     scopes=['https://www.googleapis.com/auth/drive']
 )
 service = build('drive', 'v3', credentials=creds)
 
 # Define the ID of the Google Drive folder 
 # YOUR GOOGLE DRIVE FOLDER ID DOWN BELOW: 
-folder_id = ' --> YOUR FOLDER ID HERE <-- '  
+folder_id = ' --> YOUR GOOGLE DRIVE FOLDER ID HERE <-- '                        # <-- edit here
 
 
 # Define a function to get the link for a file
